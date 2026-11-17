@@ -7,7 +7,7 @@ name = "depwatch"
 version = "1.0.0"
 description = "Find known vulnerabilities in Python and npm dependencies (OSV.dev)"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = { text = "MIT" }
 dependencies = []
 

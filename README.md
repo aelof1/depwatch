@@ -28,7 +28,7 @@ If you give a folder, the tool looks for these files in all its subfolders (exce
 
 ## Requirements
 
-- **Python 3.9 or newer**
+- **Python 3.10 or newer**
 - **An Internet connection** (HTTPS access to `api.osv.dev`)
 - No external Python libraries, no API key
 - A corporate proxy is supported through the `HTTPS_PROXY` variable.
