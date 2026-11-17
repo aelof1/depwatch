@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "depwatch"
+version = "1.0.0"
+description = "Find known vulnerabilities in Python and npm dependencies (OSV.dev)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+depwatch = "depwatch.cli:main"
+
+[tool.setuptools]
+packages = ["depwatch"]

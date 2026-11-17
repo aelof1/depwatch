@@ -1,0 +1,7 @@
+# Old versions on purpose, to show the scanner in action
+django==3.2.0
+requests==2.19.1
+pyyaml==5.3
+jinja2==2.10
+flask>=2.0
+urllib3==1.24.1
